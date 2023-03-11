@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  color: white;
+  font-family: monospace;
+  font-size: larger;
+}
+
+.homepageWrap {
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.homepageBackground {
+  opacity: 0.4;
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.homepageContent {
+  position: relative;
+}
