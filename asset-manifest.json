@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3693d860.css",
-    "main.js": "/Portfolio/static/js/main.c0f8a267.js",
-    "static/media/office.webp": "/Portfolio/static/media/office.bd11254624ace1d7e328.webp",
-    "static/media/green-hat-hoodie.jpeg": "/Portfolio/static/media/green-hat-hoodie.71d44a92d99e9e306119.jpeg",
-    "static/media/resume.pdf": "/Portfolio/static/media/resume.1d41ccdfe094e914aa8f.pdf",
-    "index.html": "/Portfolio/index.html",
-    "main.3693d860.css.map": "/Portfolio/static/css/main.3693d860.css.map",
-    "main.c0f8a267.js.map": "/Portfolio/static/js/main.c0f8a267.js.map"
+    "main.css": "/static/css/main.eee60adb.css",
+    "main.js": "/static/js/main.84ffe4d1.js",
+    "static/media/office.webp": "/static/media/office.bd11254624ace1d7e328.webp",
+    "static/media/green-hat-hoodie.jpeg": "/static/media/green-hat-hoodie.71d44a92d99e9e306119.jpeg",
+    "static/media/resume.pdf": "/static/media/resume.1d41ccdfe094e914aa8f.pdf",
+    "index.html": "/index.html",
+    "main.eee60adb.css.map": "/static/css/main.eee60adb.css.map",
+    "main.84ffe4d1.js.map": "/static/js/main.84ffe4d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.3693d860.css",
-    "static/js/main.c0f8a267.js"
+    "static/css/main.eee60adb.css",
+    "static/js/main.84ffe4d1.js"
   ]
 }
