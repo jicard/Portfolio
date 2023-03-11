@@ -10,9 +10,9 @@ import { Link } from 'react-router-dom'
 export default function Header() {
         return (
           <div className='navBar'>
-              <Link to="/" className="headerBtn">About Me</Link>
-              <Link to="/portfolio" className="headerBtn">Portfolio</Link>
-              <Link to="/contact" className="headerBtn">Contact</Link>
+              <a href="/" className="headerBtn">About Me</a>
+              <a href="#portfolio" className="headerBtn">Portfolio</a>
+              <a href="#contact" className="headerBtn">Contact</a>
               <a href={Resume} download className="headerBtn">Resume</a>
           </div>
         )

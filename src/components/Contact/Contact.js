@@ -9,7 +9,7 @@ import './Contact.css'
             //When field is empty and we tab out or submit, error message shows
             //"field must have value"
         //Regex check for email
-const ContactForm = () => {
+const Contact = () => {
     /*
     const [status, setStatus] = useState("Submit");
     const handleSubmit = async (e) => {
@@ -54,4 +54,4 @@ const ContactForm = () => {
   )
 }
 
-export default ContactForm;
+export default Contact;
