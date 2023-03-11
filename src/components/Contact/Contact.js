@@ -34,6 +34,7 @@ const ContactForm = () => {
           };
           */
   return (
+    <div className='contactFormWrapper'>
     <form>
       <div>
         <label htmlFor="name">Name:</label>
@@ -49,6 +50,7 @@ const ContactForm = () => {
       </div>
       <button type="submit">Submit</button>
     </form>
+    </div>
   )
 }
 

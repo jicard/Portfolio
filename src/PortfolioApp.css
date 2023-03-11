@@ -16,7 +16,7 @@ body {
 .homepageBackground {
   opacity: 0.2;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 

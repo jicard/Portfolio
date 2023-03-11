@@ -6,7 +6,7 @@ import React from 'react'
     //Link to deployed application and github
 export default function portfolio() {
   return (
-    <div id="#portfolio">
+    <div>
      Project links here
     </div>
   )

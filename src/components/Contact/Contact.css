@@ -1,5 +1,11 @@
+
 form {
     margin-top: 300px;
     margin-bottom: 300px;
-    text-align: center;
+    width: max-content;
+    
+}
+
+.contactFormWrapper {
+    margin-left: vw;
 }
