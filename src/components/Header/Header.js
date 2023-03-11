@@ -3,7 +3,6 @@ import Resume from "../../assets/resume.pdf"
 import { HashLink as Link } from 'react-router-hash-link'
 import './Header.css'
 //import { Link } from 'react-router-dom'
-import { animateScroll as scroll } from 'react-scroll'
 //highlight navbar link on hover and when looking at that content
 //link needs to be to same page, no page reloading
 //About Me is selected by default (on page load)
