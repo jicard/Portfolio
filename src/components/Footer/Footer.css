@@ -2,8 +2,12 @@
     width: 100px;
     height: 100px;
     color: white;
-    margin: 20px;
+    padding: 20px;
+}
 
+.footerLinksContainer {
+    margin-bottom: 0px;
+    text-align: center;
 }
 /*
 .footerLinksContainer {

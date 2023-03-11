@@ -1,0 +1,15 @@
+.headerBtn {
+    color: white;
+    text-decoration: none !important;
+    margin: 20px;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: black;
+}

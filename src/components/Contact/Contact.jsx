@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './Contact.css'
 
 //contact form for sending me email
 //Contact

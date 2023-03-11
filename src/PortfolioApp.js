@@ -9,22 +9,26 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import ContactForm from "./components/Contact/Contact";
 import Resume from "./components/Resume/Resume";
 //basename={process.env.PUBLIC_URL}
+/*
+<Routes>
+    <Route exact path="/" element={<Bio />} />
+    <Route path="/#portfolio" element={<Portfolio />} />
+    <Route path="/#contact" element={<ContactForm />} />
+    <Route path="/resume" element={<Resume />} />
+</Routes>
+*/
 function App() {
     
     return (
         <>
-        <Router>
+        <Router basename="/">
         <div className='homepageWrap'>
                 <img className='homepageBackground' src={backgroundImage} alt=''/>
             <div className='homepageContent'>
                 <Header />
-                    <Routes>
-                        <Route exact path="/" element={<Bio />} />
-                        <Route path="/portfolio" element={<Portfolio />} />
-                        <Route path="/contactme" element={<ContactForm />} />
-                        <Route path="/resume" element={<Resume />} />
-                    </Routes>
-                <ContactForm />
+                <Bio id='aboutMe'/>
+                <Portfolio id='portfolio'/>
+                <ContactForm id='contact'/>
                 <Footer />
             </div>
         </div>

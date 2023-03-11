@@ -6,31 +6,8 @@ import React from 'react'
     //Link to deployed application and github
 export default function portfolio() {
   return (
-    <div>
-      <img>
-        <a></a>
-          <p></p>
-      </img>
-      <img>
-        <a></a>
-          <p></p>
-      </img>
-      <img>
-        <a></a>
-          <p></p>
-      </img>
-      <img>
-        <a></a>
-          <p></p>
-      </img>
-      <img>
-        <a></a>
-        <p></p>
-      </img>
-      <img>
-        <a></a>
-          <p></p>
-      </img>
+    <div id="#portfolio">
+     Project links here
     </div>
   )
 }
