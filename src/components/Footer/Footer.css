@@ -1,0 +1,25 @@
+.footerLinksContainer a svg{
+    width: 100px;
+    height: 100px;
+    color: white;
+    margin: 20px;
+
+}
+/*
+.footerLinksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.footerLinksContainer::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+*/
