@@ -1,11 +1,29 @@
-
 form {
+	width: 40%;
     margin-top: 300px;
     margin-bottom: 300px;
-    width: max-content;
-    
+    text-align: right;
+    color: white;
 }
 
-.contactFormWrapper {
-    margin-left: vw;
+input {
+	font-size: 1rem;
+	padding: 0.25rem;
+	outline: none;
+	border-radius: 3px;
+	transition: box-shadow 0.2s;
+	width: 600px;
+}
+
+input:focus {
+	border: 2px solid greenyellow;
+	box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+.label {
+
+}
+
+.button:hover {
+    color: green;
 }

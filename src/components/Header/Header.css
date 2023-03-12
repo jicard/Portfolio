@@ -4,6 +4,10 @@
     margin: 20px;
 }
 
+.headerBtn:hover {
+    color: greenyellow
+}
+
 .navBar {
     display: flex;
     flex-direction: row;

@@ -37,18 +37,18 @@ const Contact = () => {
     <div className='contactFormWrapper'>
     <form>
       <div>
-        <label htmlFor="name">Name:</label>
+        <label className="label" htmlFor="name">Name:</label>
         <input type="text" id="name" required />
       </div>
       <div>
-        <label htmlFor="email">Email:</label>
+        <label className="label" htmlFor="email">Email:</label>
         <input type="email" id="email" required />
       </div>
       <div>
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" required />
+        <label className="label" htmlFor="message">Message:</label>
+        <input id="message" required />
       </div>
-      <button type="submit">Submit</button>
+      <button className="submit" type="submit">Submit</button>
     </form>
     </div>
   )

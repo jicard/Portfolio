@@ -1,14 +1,37 @@
+.aboutMeWrapper {
+    margin-top: 200px;
+    margin-bottom: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    line-height: 1.6;
+}
+
+.profilePicContainer {
+    width: 35%;
+    text-align: right;
+    margin-left: 50px;
+}
+
 .profilePic {
-    width: 200px;
-    height: 250px;
+    width: 250px;
+    height: 300px;
     border: 2px solid black;
     border-radius: 50%;
 }
 
-.aboutMe {
-    margin-top: 200px;
-    margin-bottom: 400px;
-    width: 100%;
-    height: auto;
-    text-align: center;
+.myName {
+    flex: 1;
+    text-align: left;
+    padding-top: 80px;
+    margin-left: 10px;
 }
+
+.myBio {
+    text-align: center;
+    width: 100%;
+}
+
+
