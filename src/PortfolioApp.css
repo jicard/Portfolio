@@ -10,15 +10,35 @@ html, body {
   background-color: black;
   scroll-padding-top: 100px;
   left: 0;
+  background: linear-gradient(to right, #283c86, #45a247);
 }
 
 .homepageBackground {
-  opacity: 0.2;
+  opacity: 0.4;
   position: fixed;
   width: 100vw;
   height: 100vh;
+  
 }
 
 .homepageContent {
   position: relative;
+}
+
+@media screen and (max-width: 980px) {
+    .homepageContent {
+        overflow-x: hidden;
+    }
+    body {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .homepageContent {
+        overflow-x: hidden;
+    }
+    body {
+        position: relative;
+    }
 }

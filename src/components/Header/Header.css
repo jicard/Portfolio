@@ -1,11 +1,11 @@
 .headerBtn {
     color: white;
     text-decoration: none !important;
-    margin: 20px;
+    margin: 15px;
 }
 
 .headerBtn:hover {
-    color: greenyellow
+    color: greenyellow;
 }
 
 .navBar {
@@ -15,6 +15,5 @@
     width: 100%;
     position: fixed;
     top: 0;
-    background-color: black;
     margin-bottom: 100px;
 }
