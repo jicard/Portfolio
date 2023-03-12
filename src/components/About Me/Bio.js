@@ -16,7 +16,7 @@ export default function aboutMe() {
       </div>
       <div className='myBio'>
       <p>
-      Logistics - Warehouse Management - Web Development - Databases
+      Logistics - Warehouse Management - Web Development
       </p>
       </div>
     </div>

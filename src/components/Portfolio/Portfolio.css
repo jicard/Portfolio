@@ -4,49 +4,52 @@
 
 }
 
+ul, ol {
+    list-style-type: none;
+    color: white;
+}
+
 .flex-row {
 	display: flex;
 	justify-content: space-evenly;
 }
 
 .card {
-	width: 25%;
+    width: 30rem;
 	text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .card-title {
 	font-size: 1.5rem;
-	color: var(--quaternary);
 }
 
 .card-subtitle {
 	font-size: 1rem;
-	color: var(--tertiary);
 }
 
 .card-text {
-	font-size: 0.75rem;
-	height: 8rem;
-	color: var(--quinary);
-}
-
-.card-techs {
-	font-size: 0.75rem;
-	height: 4rem;
-	color: var(--quinary);
+	font-size: 16px;
+	height: 2rem;
 }
 
 .card-image {
-	max-width: 300px;
-	max-height: 150px;
+	max-width: 500px;
+	max-height: 250px;
 }
 
 .card-link {
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	font-size: 0.70rem;
+	font-size: 20px;
+    line-height: 1.6;
+    text-decoration: none !important;
+    color: white;
 }
 
-li.padding::marker {
-    display: none;
-    font-size: 0.00000001%;
+.card-link:hover {
+    color: greenyellow;
 }
