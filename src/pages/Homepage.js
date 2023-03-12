@@ -12,7 +12,7 @@ export default function Homepage() {
     <img className='homepageBackground' src={backgroundImage} alt=''/>
       <div className='homepageContent'>
         <Header/>
-        <div id="/">
+        <div id="/aboutMe">
           <Bio />
         </div>
         <div id="portfolio">
