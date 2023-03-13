@@ -6,9 +6,8 @@ html, body {
 .homepageWrap {
   overflow:scroll;
   position: fixed;
-  width: 100vw;
+  width: 110vw;
   height: 110vh;
-  background-color: black;
   scroll-padding-top: 100px;
   left: 0;
   background: linear-gradient(to right, #283c86, #45a247);
