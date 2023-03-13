@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/aboutMe/static/css/main.c4acef36.css",
+    "main.css": "/Portfolio/aboutMe/static/css/main.978c8e18.css",
     "main.js": "/Portfolio/aboutMe/static/js/main.c024a1a8.js",
     "static/media/fullstackscafe.png": "/Portfolio/aboutMe/static/media/fullstackscafe.026299e85631cb8d2ba9.png",
     "static/media/weather.png": "/Portfolio/aboutMe/static/media/weather.2550c84fd5871ceb5030.png",
@@ -13,11 +13,11 @@
     "static/media/resume.pdf": "/Portfolio/aboutMe/static/media/resume.1d41ccdfe094e914aa8f.pdf",
     "static/media/workDay.png": "/Portfolio/aboutMe/static/media/workDay.d2ffdac6c789b400013b.png",
     "index.html": "/Portfolio/aboutMe/index.html",
-    "main.c4acef36.css.map": "/Portfolio/aboutMe/static/css/main.c4acef36.css.map",
+    "main.978c8e18.css.map": "/Portfolio/aboutMe/static/css/main.978c8e18.css.map",
     "main.c024a1a8.js.map": "/Portfolio/aboutMe/static/js/main.c024a1a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4acef36.css",
+    "static/css/main.978c8e18.css",
     "static/js/main.c024a1a8.js"
   ]
 }
