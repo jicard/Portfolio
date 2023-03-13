@@ -51,7 +51,7 @@ return (
 		<div className="portfolioHeader">
 			<h1>My Projects</h1>
 		</div>
-		<div>
+		<div className="portfolioWrapper">
 			<ul className="flex-row mobile-row">
 				<li className="project">
 					<Project projects={projects[0]}></Project>

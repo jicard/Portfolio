@@ -5,23 +5,24 @@ import Footer from "../components/Footer/Footer";
 import Bio from "../components/About Me/Bio";
 import Portfolio from "../components/Portfolio/Portfolio";
 import Contact from "../components/Contact/Contact";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Resume from "../components/Resume/Resume"
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom'
+
 export default function Homepage() {
   return (
     <div className='homepageWrap'>
     <img className='homepageBackground' src={backgroundImage} alt=''/>
       <div className='homepageContent'>
+        <Router basename='/Portfolio'>
         <Header/>
-        <div id="aboutMe">
-          <Bio />
-        </div>
-        <div id="portfolio">
-          <Portfolio />
-        </div>
-        <div id="contact">
-          <Contact />
-        </div>
+        <Routes>
+          <Route element={<Bio />} path="/aboutMe"/>
+          <Route element={<Portfolio />} path="projects"/>
+          <Route element={<Contact />} path="contact"/>
+          <Route element={<Resume />} path="resume"/>
+        </Routes>
         <Footer/>
+        </Router>
       </div>
     </div>
   )

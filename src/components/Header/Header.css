@@ -1,11 +1,26 @@
-.headerBtn {
-    color: white;
-    text-decoration: none !important;
-    margin: 15px;
+ul {
+    list-style-type: none;
+    margin-top: 0;
 }
 
-.headerBtn:hover {
+li, li a {
+    list-style: none;
+    color: white;
+    margin: 15px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+li a:hover {
     color: greenyellow;
+}
+
+li:active {
+    color: red;
+}
+
+li a:active {
+    color:yellow;
 }
 
 .navBar {
@@ -16,4 +31,6 @@
     position: fixed;
     top: 0;
     margin-bottom: 100px;
+    z-index: 1;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
 }
