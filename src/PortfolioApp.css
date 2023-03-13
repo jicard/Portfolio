@@ -6,7 +6,7 @@ html, body {
 .homepageWrap {
   overflow:scroll;
   position: fixed;
-  width: 110vw;
+  width: 101vw;
   height: 110vh;
   scroll-padding-top: 100px;
   left: 0;

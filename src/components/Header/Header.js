@@ -12,7 +12,7 @@ export default function Header() {
             <>
             <ul className='navBar'>
             <li>
-                <NavLink to="aboutMe">About Me</NavLink>
+                <NavLink to="Portfolio/aboutMe">About Me</NavLink>
             </li>
             <li>
                 <NavLink to="projects">Portfolio</NavLink>

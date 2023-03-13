@@ -13,10 +13,10 @@ export default function Homepage() {
     <div className='homepageWrap'>
     <img className='homepageBackground' src={backgroundImage} alt=''/>
       <div className='homepageContent'>
-        <Router basename='/Portfolio'>
+        <Router basename='/'>
         <Header/>
         <Routes>
-          <Route element={<Bio />} path="/aboutMe"/>
+          <Route element={<Bio />} path="/Portfolio/aboutMe"/>
           <Route element={<Portfolio />} path="projects"/>
           <Route element={<Contact />} path="contact"/>
           <Route element={<Resume />} path="resume"/>
