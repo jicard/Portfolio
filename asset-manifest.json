@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e86fa49f.css",
-    "main.js": "/static/js/main.b0421bf2.js",
+    "main.js": "/static/js/main.d03c1324.js",
     "static/media/fullstackscafe.png": "/static/media/fullstackscafe.026299e85631cb8d2ba9.png",
     "static/media/weather.png": "/static/media/weather.2550c84fd5871ceb5030.png",
     "static/media/bookSearch.png": "/static/media/bookSearch.de520820cfe276f3d01c.png",
@@ -14,10 +14,10 @@
     "static/media/workDay.png": "/static/media/workDay.d2ffdac6c789b400013b.png",
     "index.html": "/index.html",
     "main.e86fa49f.css.map": "/static/css/main.e86fa49f.css.map",
-    "main.b0421bf2.js.map": "/static/js/main.b0421bf2.js.map"
+    "main.d03c1324.js.map": "/static/js/main.d03c1324.js.map"
   },
   "entrypoints": [
     "static/css/main.e86fa49f.css",
-    "static/js/main.b0421bf2.js"
+    "static/js/main.d03c1324.js"
   ]
 }
