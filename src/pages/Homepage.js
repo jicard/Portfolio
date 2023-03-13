@@ -16,7 +16,7 @@ export default function Homepage() {
         <Router basename='/'>
         <Header/>
         <Routes>
-          <Route element={<Bio />} path="/Portfolio/aboutMe"/>
+          <Route element={<Bio />} path="/aboutMe"/>
           <Route element={<Portfolio />} path="projects"/>
           <Route element={<Contact />} path="contact"/>
           <Route element={<Resume />} path="resume"/>

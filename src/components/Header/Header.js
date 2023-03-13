@@ -1,7 +1,6 @@
 import React from 'react'
 import './Header.css'
 import { NavLink } from "react-router-dom"
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 //
 //highlight navbar link on hover and when looking at that content
@@ -12,7 +11,7 @@ export default function Header() {
             <>
             <ul className='navBar'>
             <li>
-                <NavLink to="Portfolio/aboutMe">About Me</NavLink>
+                <NavLink to="aboutMe">About Me</NavLink>
             </li>
             <li>
                 <NavLink to="projects">Portfolio</NavLink>
