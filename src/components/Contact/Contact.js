@@ -33,24 +33,18 @@ const Contact = () => {
             alert(result.status);
           };
           */
+         const prevent = (event) => {
+            event.preventDefault();
+         }
   return (
-    <div className='contactFormWrapper'>
-    <form>
-      <div>
-        <label className="label" htmlFor="name">Name:</label>
-        <input type="text" id="name" required />
-      </div>
-      <div>
-        <label className="label" htmlFor="email">Email:</label>
-        <input type="email" id="email" required />
-      </div>
-      <div>
-        <label className="label" htmlFor="message">Message:</label>
-        <input id="message" required />
-      </div>
-      <button className="submit" type="submit">Submit</button>
+  <div className='contactFormWrapper'>
+    <form>      
+      <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+      <input name="email" type="text" class="feedback-input" placeholder="Email" />
+      <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+      <input type="submit" onClick={prevent} value="SUBMIT"/>
     </form>
-    </div>
+  </div>
   )
 }
 
