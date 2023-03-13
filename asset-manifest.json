@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e86fa49f.css",
-    "main.js": "/Portfolio/static/js/main.3c802ac7.js",
-    "static/media/fullstackscafe.png": "/Portfolio/static/media/fullstackscafe.026299e85631cb8d2ba9.png",
-    "static/media/weather.png": "/Portfolio/static/media/weather.2550c84fd5871ceb5030.png",
-    "static/media/bookSearch.png": "/Portfolio/static/media/bookSearch.de520820cfe276f3d01c.png",
-    "static/media/kid.jpeg": "/Portfolio/static/media/kid.19103463a30b35e301ab.jpeg",
-    "static/media/office.webp": "/Portfolio/static/media/office.bd11254624ace1d7e328.webp",
-    "static/media/sqlCMS.png": "/Portfolio/static/media/sqlCMS.26e6b0fb60383ef1feda.png",
-    "static/media/twitbookagram.png": "/Portfolio/static/media/twitbookagram.dd400993653a70aecc26.png",
-    "static/media/green.jpeg": "/Portfolio/static/media/green.71d44a92d99e9e306119.jpeg",
-    "static/media/resume.pdf": "/Portfolio/static/media/resume.1d41ccdfe094e914aa8f.pdf",
-    "static/media/workDay.png": "/Portfolio/static/media/workDay.d2ffdac6c789b400013b.png",
-    "index.html": "/Portfolio/index.html",
-    "main.e86fa49f.css.map": "/Portfolio/static/css/main.e86fa49f.css.map",
-    "main.3c802ac7.js.map": "/Portfolio/static/js/main.3c802ac7.js.map"
+    "main.css": "/aboutMe/static/css/main.e86fa49f.css",
+    "main.js": "/aboutMe/static/js/main.c5b93e19.js",
+    "static/media/fullstackscafe.png": "/aboutMe/static/media/fullstackscafe.026299e85631cb8d2ba9.png",
+    "static/media/weather.png": "/aboutMe/static/media/weather.2550c84fd5871ceb5030.png",
+    "static/media/bookSearch.png": "/aboutMe/static/media/bookSearch.de520820cfe276f3d01c.png",
+    "static/media/kid.jpeg": "/aboutMe/static/media/kid.19103463a30b35e301ab.jpeg",
+    "static/media/office.webp": "/aboutMe/static/media/office.bd11254624ace1d7e328.webp",
+    "static/media/sqlCMS.png": "/aboutMe/static/media/sqlCMS.26e6b0fb60383ef1feda.png",
+    "static/media/twitbookagram.png": "/aboutMe/static/media/twitbookagram.dd400993653a70aecc26.png",
+    "static/media/green.jpeg": "/aboutMe/static/media/green.71d44a92d99e9e306119.jpeg",
+    "static/media/resume.pdf": "/aboutMe/static/media/resume.1d41ccdfe094e914aa8f.pdf",
+    "static/media/workDay.png": "/aboutMe/static/media/workDay.d2ffdac6c789b400013b.png",
+    "index.html": "/aboutMe/index.html",
+    "main.e86fa49f.css.map": "/aboutMe/static/css/main.e86fa49f.css.map",
+    "main.c5b93e19.js.map": "/aboutMe/static/js/main.c5b93e19.js.map"
   },
   "entrypoints": [
     "static/css/main.e86fa49f.css",
-    "static/js/main.3c802ac7.js"
+    "static/js/main.c5b93e19.js"
   ]
 }
